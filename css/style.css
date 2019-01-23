@@ -1,0 +1,57 @@
+.baterie {
+    border: 1px solid black;
+    height: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.chargedLine {
+    height: 5px;
+    min-height: 5px;
+    max-height: 5px;
+    background-color: gray;
+}
+
+.baterieInfoUI {
+    border: 1px solid black;
+    height: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    background: black;
+    color: white;
+}
+
+.name {
+    width: 50%;
+    float: left;
+}
+
+.info {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+body , #btnContainer{
+    margin-top :100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btnContainer{
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
